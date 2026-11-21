@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241b18"/>
+      <stop offset="100%" stop-color="#110b09"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c89b53"/>
+      <stop offset="50%" stop-color="#f5d796"/>
+      <stop offset="100%" stop-color="#c89b53"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="18" cy="18" r="1" fill="rgba(255,255,255,0.08)"/>
+    </pattern>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#grad)"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+  <rect width="100%" height="100%" fill="url(#glow)"/>
+
+  <!-- Ornate Border Frame -->
+  <rect x="36" y="36" width="728" height="528" rx="16" fill="none" stroke="url(#gold)" stroke-width="1.8" stroke-opacity="0.5"/>
+  <rect x="46" y="46" width="708" height="508" rx="10" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  
+  <!-- Corner Rosettes -->
+  <circle cx="36" cy="36" r="6" fill="#d4af37"/>
+  <circle cx="764" cy="36" r="6" fill="#d4af37"/>
+  <circle cx="36" cy="564" r="6" fill="#d4af37"/>
+  <circle cx="764" cy="564" r="6" fill="#d4af37"/>
+
+  <!-- Center Artwork / Iconography -->
+  <g transform="translate(400, 240)">
+    
+  <circle cx="0" cy="-20" r="85" fill="rgba(255,255,255,0.05)" stroke="url(#gold)" stroke-width="2"/>
+  <path d="M-40,-30 C-40,-65 40,-65 40,-30 C40,20 -40,20 -40,-30 Z" fill="none" stroke="#f3d599" stroke-width="3"/>
+  <path d="M-15,-10 C-32,-22 -52,6 -30,28 C-8,50 0,60 0,60 C0,60 8,50 30,28 C52,6 32,-22 15,-10 C10,-6 5,-2 0,2 C-5,-2 -10,-6 -15,-10 Z" fill="#d4af37" opacity="0.9"/>
+
+  </g>
+
+  <!-- Tag Pill -->
+  <g transform="translate(400, 395)">
+    <rect x="-85" y="-16" width="170" height="32" rx="16" fill="rgba(0,0,0,0.4)" stroke="url(#gold)" stroke-width="1"/>
+    <text x="0" y="5" fill="#f1d59b" font-family="'DM Sans', -apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="2.5" text-anchor="middle">PHOTO GUIDE</text>
+  </g>
+
+  <!-- Typography -->
+  <text x="400" y="460" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="600" text-anchor="middle" letter-spacing="0.5">Classic Couple Walk</text>
+  <text x="400" y="496" fill="#d9cbba" font-family="'DM Sans', sans-serif" font-size="14" text-anchor="middle" letter-spacing="0.8">Gentle step, hand in hand with soft gaze</text>
+  
+  <!-- Subtle Brand Watermark -->
+  <text x="400" y="534" fill="rgba(255,255,255,0.3)" font-family="'DM Sans', sans-serif" font-size="10" font-weight="600" letter-spacing="3" text-anchor="middle">EVENTORA · LUXURY CURATION</text>
+</svg>
